@@ -1,0 +1,32 @@
+//********************************************************************************
+// Variables                                                                     
+//********************************************************************************
+
+// colors
+$color-brand-main: #e3e3e3;
+$color-brand-secondary: #cccccc;
+
+$color-white: #ffffff;
+$color-black: #222222;
+$white_50: rgba(255, 255, 255, .5);
+
+$color-text: #f22b11;
+$color-link: white;
+$color-link-hover: darken($color-link, 10%);
+
+$color-button-primary: #f22b11;
+$color-button-primary-text: #ffe37a;
+$color-button-primary-hover: darken($color-button-primary, 5%);
+
+$color-facebook: #03539e;
+$color-twitter: #35ccff;
+$color-linkedin: #217bc1;
+
+// fonts
+$font_1: slick;
+$font_2: icomoon;
+$font_3: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+// misc
+$full-width: 100%;
+$full-height: 100%;
