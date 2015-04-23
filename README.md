@@ -33,7 +33,7 @@ http://gruntjs.com/configuring-tasks
 
 
 
-CONFIGURE WATCH TASKS
+CONFIGURE watch task
 ==============================================================
 
 https://github.com/gruntjs/grunt-contrib-watch
