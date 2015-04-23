@@ -1,6 +1,5 @@
-/********************************************************************************
- PRE-REQUISTES FOR BUILDING CSS / JS                                                     
-*********************************************************************************/
+PRE-REQUISTES FOR BUILDING CSS/JS
+==============================================================
 
 DO NOT EDIT FILES WITHIN "dist" Folders
 CHANGES WILL BE OVERWRITTEN!!!
@@ -15,27 +14,24 @@ CHANGES WILL BE OVERWRITTEN!!!
 
 
 	
-/********************************************************************************
- UPDATE DEPENDENCIES                                                     
-*********************************************************************************/
+UPDATE DEPENDENCIES
+==============================================================
 
 Check "package.json" and update package versions to the latest releases (eg. compare with https://www.npmjs.org/package/grunt)
 
 
 	
 
-/********************************************************************************
- ADJUST "Gruntfile.js" to your needs                                                     
-*********************************************************************************/
+ADJUST "Gruntfile.js" to your needs
+==============================================================
 
 http://gruntjs.com/configuring-tasks
 
 
 
 
-/********************************************************************************
- BUILDING MANUALLY (TEST YOUR SET-UP)                                                     
-*********************************************************************************/
+BUILDING MANUALLY (TEST YOUR SET-UP)
+==============================================================
 
 # grunt build-sass
 # grunt build-js
@@ -44,9 +40,8 @@ http://gruntjs.com/configuring-tasks
 
 
 
-/********************************************************************************
- CONFIGURE WATCH TASKS                                                     
-*********************************************************************************/
+CONFIGURE WATCH TASKS
+==============================================================
 
 https://github.com/gruntjs/grunt-contrib-watch
 
