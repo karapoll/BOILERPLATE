@@ -12,7 +12,7 @@ CHANGES WILL BE OVERWRITTEN!!!
 - install nodejs (http://nodejs.org/)
 - make sure 'node' and 'npm' is in your system PATH
 - install grunt-cli (http://gruntjs.com/getting-started)
-- open command terminal/prompt where Gruntfile.js is located and execute: # npm install
+- open command terminal where Gruntfile.js is located and execute: # npm install
 
 
 
