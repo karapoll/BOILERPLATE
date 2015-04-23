@@ -40,7 +40,7 @@
 
 // svg-png fallback
 // usage: @include background-image('pattern');
-// or see initialize.js
+// or other way in initialize.js
 $image-path: '../../img' !default;
 $fallback-extension: 'png' !default;
 $retina-suffix: '@2x';
@@ -69,3 +69,16 @@ $retina-suffix: '@2x';
 	$opacity-ie: $opacity * 100;
 	filter: alpha(opacity=$opacity-ie); // IE8
 }
+
+// breakpoints
+// usage: .element { color: red; @include breakpoint(medium) { color: blue; } }
+// @mixin breakpoint($name) {
+//         @if map-has-key($breakpoints, $name) {
+//             @media #{inspect(map-get($breakpoints, $name))} {
+//         @content;
+//         }
+//     }
+//     @else {
+//         @warn "Couldn't find a breakpoint named `#{$name}`.";
+//     }
+// }
